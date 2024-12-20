@@ -20,6 +20,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportRuntimeHints;
 
+sonar-scanner.bat -D"sonar.projectKey=PetClinic" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqp_4cc04e836a4966f369bbbc22c31299f9cac70f0c"
+
 /**
  * PetClinic Spring Boot Application.
  *
